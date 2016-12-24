@@ -1,0 +1,310 @@
+ @font-face {
+     font-family: Avalon; 
+     src: url('../fonts/Avalon-Book-webfont.woff');
+} 
+
+ @font-face {
+     font-family: Avalon; 
+     font-weight: bold;
+     src: url('../fonts/Avalon-Bold-webfont.woff');
+} 
+
+/*BASIC*/
+
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    background-color: #989898;
+    font-family: Avalon;
+    height:100%;
+    font-size: 14px;
+}
+
+h1{
+    text-align:center;
+    font-family: Avalon;
+    font-size: 60px;
+    margin: 0px;
+}
+
+h2{
+    background-color: #fff;
+    background-image: url('../images/header1.png');
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    font-style:italic;
+    font-family: times, serif;
+    padding: 30px 0px 0px 0px;
+    margin: 0;
+    text-shadow: 2px 2px #fff;
+}
+
+h3{
+    margin:0px;
+}
+
+h4{
+    margin: 0px;
+    padding:0px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+a{
+    transition: 0.3s ease-in-out;
+    text-decoration:none;
+}
+
+/*HEADER*/
+
+header{
+    text-align: center;
+    width:100%;
+    padding: 20px 0px 20px 0px;
+    background-color: #fff;
+    position:relative;
+    z-index: 5;
+}
+
+#headericon{
+    border: 10px solid #ffffff;
+    border-radius: 100px;
+}
+
+#subtitle{
+    font-style: italic;
+}
+
+ul#topbar {
+    list-style-type: none;
+    margin: 0;
+    width:100%;
+    background-color: #ff0033;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 20;
+    font-size: 16px;
+}
+
+ul#topbar li {
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+}
+
+ul#topbar li a{
+    color: #fff;
+    text-decoration:none;
+}
+
+ul#topbar li a:hover{
+    color: #00ff33;
+}
+
+.fixed{
+    position:fixed;
+    top: 0;
+}
+
+/*SECTION*/
+
+#main{
+    height: auto;
+    overflow:hidden;
+    padding-bottom: 40px;
+    overflow: hidden;
+    padding-bottom: 50px;
+    min-height: 100%;
+    width: 100%;
+}
+
+section{
+    width: 70%;
+    z-index: 2;
+    position:relative;
+    float:left;
+}
+
+.smalls{
+    width: 100%;
+}
+
+#mbox{
+    width: calc(100% - 120px);
+    text-align:left;
+    margin-top:50px;
+    min-height:500px;
+    margin-left: 50px;
+}
+
+.box a{
+    color: #ff0033;
+    text-decoration:underline;
+}
+
+.box a:hover{
+    color: #989898;
+}
+
+#testyadv{
+    width: calc(100% - 40px);
+    text-align:center;
+    left:0;
+    right:0;
+    margin:auto; 
+    margin-top:30px;
+}
+
+.box{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.sbox{
+    padding:0px;
+    width:100% !important;
+    margin-top:0px !important;
+    text-align: center;
+}
+
+#sdesc{
+    text-align: left;
+    padding: 20px;
+}
+
+#icons{
+    text-align: center;
+}
+
+.simg{
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    margin-right: 10px;
+}
+
+/*POSTS*/
+
+.post{
+    margin-top: 10px;
+}
+
+.date{
+    color: #777;
+    font-style: italic;
+    font-size: 13px;
+}
+
+/*SIDEBARS*/
+
+aside{
+    width: 30%;
+    z-index:2;
+    position:relative;
+}
+
+.smalla{
+    width:100%;
+}
+
+aside#a1{
+    float: right;
+}
+
+#sidebar1{
+    width: calc(100% - 70px);
+    margin-top:50px;
+}
+
+aside#a2{
+    right:0px;
+    float: right;
+}
+
+#sidebar1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+#sidebar1 ul li {
+    padding: 5px;
+    background-color: #00ff33;
+    margin-bottom: 5px;
+    transition: 0.3s ease-in-out;
+    font-size: 12px;
+    color: #fff;
+    text-transform:uppercase;
+    overflow:hidden;
+}
+
+#sidebar1 ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#sidebar1 ul li:hover{
+    background-color: #ff0033;
+}
+
+/*FOOTER*/
+
+footer{
+    width:100%;
+    bottom:0;
+    z-index: 1;
+    overflow:hidden;
+}
+
+#fbar {
+    background-color: #ff0033;
+    color: #fff;
+    position:fixed;
+    font-size: 11px;
+    text-align:center;
+    padding: 1px 0px 1px 0px;
+    z-index: 5;
+    width: 100%;
+    bottom:0;
+}
+
+#fblock{
+    width:100%;
+    background-color: #ff0033;
+    color: #fff;
+    z-index:4;
+    position:relative;
+    padding: 0px 5px;
+    box-shadow: inset 0px 5px 5px rgba(0,0,0,0.5);
+    margin: 0px -5px;
+    bottom: 0;
+}
+
+footer table{
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+footer th, td{
+    padding: 2px 50px;
+    text-align: left;
+    vertical-align: top;
+    min-width: 100px;
+}
+
+footer a{
+    color: #ccc;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
