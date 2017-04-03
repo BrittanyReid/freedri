@@ -200,6 +200,21 @@ section{
     font-size: 13px;
 }
 
+p .in{
+    display:inline;
+}
+
+.bimage{
+    text-align: right;
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+
+img.bimage{
+    border: 5px solid #000;
+}
+
 /*SIDEBARS*/
 
 aside{
