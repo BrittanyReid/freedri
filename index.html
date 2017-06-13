@@ -1,98 +1,67 @@
+<!DOCTYPE html>
 
-<!-- index.html.jade--><!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <!--info stuffs-->
-    <title>freedri | home</title>
-    <link rel="icon" href="images/icon.gif" type="image/gif">
-    <link type="text/css" rel="stylesheet" href="css/all.css">
-    <meta name="description" content="My personal site, for art, writing, web design stuff and whatever else I want to share.">
-    <meta name="keywords" content="freedri, html, tumblr, themes, personal, cosplay, web design, websites">
-    <meta name="author" content="Bri Reid">
-    <!--javascript-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="javascript/all.js"></script>
-    <script src="javascript/index.js"></script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-2661559651074959",
-        enable_page_level_ads: true
-      });
-    </script>
-  </head>
-  <body>
-    <header><img id="headericon" alt="icon" src="images/icon.png">
-      <h1>freedri</h1>
-      <div id="description">Artist, writer, cosplayer, CS student.</div>
-    </header>
-    <!--navigation.jade-->
-    <nav>
-      <ul id="topbar">
-        <li><a href="http://freedri.com/">Home</a></li>
-        <li><a href="http://freedri.com/about.html">About</a></li>
-        <li><a href="http://blog.freedri.com/">Blog</a></li>
-        <li><a href="http://freedri.com/contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="main">
-      <!--sidebar.jade-->
-      <aside id="a1">
-        <div id="sidebar1" class="box">
-          <div id="sdesc">
-            <h4>Hi, I'm Freedri</h4>
-            <p>This is my personal website, its kind of still being worked on, but I'll have it finished soon enough!</p>
-            <div id="icons"><a href="https://www.facebook.com/itsfreedri/"><img src="images/fbi.png" class="simg"></a><a href="https://twitter.com/itsfreedri"><img src="images/twitteri.png" class="simg"></a><a href="https://www.youtube.com/channel/UCJzaBeIxXyg-pP4D_QlDvVA"><img src="images/youtubei.png" class="simg"></a></div>
-          </div>
-          <ul><a href="http://blog.freedri.com/"> 
-              <li>Tumblr Blog</li></a><a href="http://freedri.deviantart.com/"> 
-              <li>DeviantArt</li></a><a href="http://themes.freedri.com"> 
-              <li>Themes</li></a></ul>
+    <head>
+        <meta charset="UTF-8">
+        <!--info stuffs-->
+        <title>freedri | home</title>
+        <link rel="icon" href="images/icon.gif" type="image/gif">
+        <link type="text/css" rel="stylesheet" href="css/global.css">
+        <link type="text/css" rel="stylesheet" href="css/index.css">
+        <meta name="description" content="Art. Cosplay. Fandom.">
+        <meta name="keywords" content="freedri, tumblr, personal, art, fanart, cosplay, fandom">
+        <meta name="author" content="Bri Reid">
+        <!--javascript-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="javascript/index.js"></script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-2661559651074959",
+            enable_page_level_ads: true
+        });
+        </script>
+    </head>
+    <body>
+        <div id="title">
+            <img src="images/icon.png">
+            <h1>freedri</h1>
         </div>
-      </aside>
-      <section>
-        <div id="mbox" class="box">
-          <h2>Recent</h2>
-          <div class="posts">
-            <div class="post">
-              <h3><a href="./posts/under-construct.html">Please be Patient While I Work on my Website!</a></h3>
-              <div class="date">24th of December, 2016</div>
-              <p>I'm super busy working on setting this website up. Here's some stuff I need to do...</p>
+
+        <div id="centreBox">
+            <a href="links/art.html">
+                <div class="linkBox">
+                    <h3>art.</h3>
+                    <img src = "images/art.jpg">
+                </div>
+            </a>
+            <a href="links/cosplay.html">
+                <div class="linkBox">
+                    <h3>cosplay.</h3>
+                    <img src = "images/cosplay.jpg">
+                </div>  
+            </a>
+            <div class="linkBox"></div>   
+            <div class="linkBox"></div>
+            <div id="textbox">
+                <p><b>art. cosplay. fandom.</b></p>
+                <p>I'm Bri, 19 yo CS student. I draw ninjas and shit and this is my crappy website. Enjoy I guess idk.</p>
+                <p>
+                    <a href="http://blog.freedri.com/">BLOG</a>
+                </p>
             </div>
-            <div class="post">
-              <h3><a href="./posts/install-node-js.html">Installing Node.js on Windows</a></h3>
-              <div class="date">15th of December, 2016</div>
-              <p>Node.js is an open-source platform that allows you to create web servers using JavaScript, as well as use heaps of great modules through its package manager npm. In this tutorial, we’re going to run through how to install it on windows.</p>
-            </div>
-            <div class="post">
-              <h3><a href="./posts/test.html">Test</a></h3>
-              <div class="date">1st of December, 2016</div>
-              <p>This is a test</p>
-            </div>
-          </div>
-          <h2>Web Design</h2>
-          <div class="posts">
-            <div class="post">
-              <h3><a href="./posts/install-node-js.html">Installing Node.js on Windows</a></h3>
-              <div class="date">15th of December, 2016</div>
-              <p>Node.js is an open-source platform that allows you to create web servers using JavaScript, as well as use heaps of great modules through its package manager npm. In this tutorial, we’re going to run through how to install it on windows.</p>
-            </div>
-          </div>
+            <div id="icons">
+                <a href="https://www.facebook.com/itsfreedri/">
+                    <img src="images/fbi.png" class="simg">
+                </a>
+                <a href="https://twitter.com/itsfreedri">
+                    <img src="images/twitteri.png" class="simg">
+                </a>
+                <a href="https://www.youtube.com/channel/UCJzaBeIxXyg-pP4D_QlDvVA">
+                    <img src="images/youtubei.png" class="simg">
+                </a>
+            </div>      
         </div>
-      </section>
-    </div>
-    <!-- footer.jade-->
-    <footer><span id="fbar">freedri @ 2012-2016</span>
-      <div id="fblock">
-        <table>
-          <tr>
-            <td>Yo, I&apos;m freedri, and this is my website! Thanks for stopping by and checking out my content. I post art, writing, cosplay photos, tumblr themes and my web design stuff here.                                       </td>
-            <td><b>Quick Links                       </b><br><a href="about.html">About                       </a><br><a href="contact.html">Contact                       </a><br><a href="copyright.html">Copyright                        </a><br><a href="privacy.html">Privacy Policy</a><br><a href="sitemap.html">Site Map                    </a></td>
-            <td><b>Explore</b><br><a href="http://blog.freedri.com/">Blog                      </a><br><a href="art.html">Art   </a><br><a href="http://themes.freedri.com/">Tumblr Themes </a><br><a href="tools.html">Tools I use!    </a><br><a href="social.html">Social Media</a></td>
-          </tr>
-        </table>
-      </div>
-    </footer>
-  </body>
+
+    </body>
 </html>
