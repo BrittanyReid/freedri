@@ -4,17 +4,18 @@
     <head>
         <meta charset="UTF-8">
         <!--info stuffs-->
-        <title>cosplay | freedri.com</title>
+        <title>oc gallery | freedri.com</title>
         <base href="../">
         <link rel="icon" href="images/icon.gif" type="image/gif">
         <link type="text/css" rel="stylesheet" href="css/global.css">
         <link type="text/css" rel="stylesheet" href="css/pages.css">
-        <meta name="description" content="Cosplay and information on upcoming events.">
-        <meta name="keywords" content="freedri, tumblr, personal, art, fanart, cosplay, fandom, freedri.com, website, naruto, comics">
+        <link type="text/css" rel="stylesheet" href="css/gallery.css">
+        <meta name="description" content="A gallery of original content by freedri.">
+        <meta name="keywords" content="freedri, art, watercolors, digital art, portraits, landscapes, paintings">
         <meta name="author" content="Bri Reid">
         <!--javascript-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="javascript/pages.js"></script>
+        <script src="javascript/gallery.js"></script>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!--adscript-->
         <script>
@@ -25,7 +26,7 @@
         </script>
     </head>
     <body>
-        <div id="titlebox" class="box">
+        <div id="titlebox" class="box + dynamicheight">
             <div id="icon">
                 <a href="index.html">
                     <span id="behind">HOME</span>
@@ -60,12 +61,21 @@
         </div>
 
         <div id="main">
-            <div id="page">
-                <h2>Cosplay</h2>
-                <p>I cosplay characters from Naruto, Persona, Osomatsu-san and more! Please check out my cosplay facebook <a href="https://www.facebook.com/freedricosplay/">freedricosplay</a>. I also post cosplay related content on my tumblr and instagram.</p>
-                <h3>Events</h3>
-                <h4>AVcon 2018, 20th-22th of July</h4>
-                <img src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/24796531_1970106859682493_5903723526597355099_n.jpg?oh=ca8ba2125e0ff0e0d41892adbca0ce95&oe=5B250C33"/>
+            <div id="button" onclick="hd()">▼ HEADER</div>
+            <div id="desc">
+                <h2>original gallery</h2>
+            </div>
+
+            <!--COLUMNS-->
+            <div id="container" class="hidden">
+                <div id="column1" class="col">
+                    <a href="https://freedri.deviantart.com/art/View-Green-Bay-Port-Elliot-730877071">
+                        <img src="images/beach.png">
+                    </a>
+                </div>
+                <div id="column2" class="col">
+                    
+                </div>
             </div>
         </div>
 

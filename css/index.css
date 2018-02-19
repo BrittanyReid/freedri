@@ -1,67 +1,64 @@
-#title{
-    text-align: center;
-    margin-top: 10px;
+#background{
+    background-image:url("../images/beach.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    position: relative;
 }
 
-#title img{
-    width: 120px;
-    border-radius: 200px;
-    border: 10px solid #fff;
+#artinfo{
+    background-color: #000;
+    opacity: 0.4;
+    color: #fff;
+    font-family: monospace;
+    display:inline;
+    padding: 5px;
+    bottom:0;
+    position: absolute;
+    font-size: 8px;
 }
 
-#centreBox{
-    margin:auto;
-    width: 70%;
-    max-width: 450px;
-    height: auto;
-}
-
-.linkBox{
-    width: calc(50% - 23px);
-    height: auto;
-    display:inline-block;
-    margin-right: 10px;
-    margin-left: 10px;
-    box-shadow: 5px 3px 3px #333;
+#artinfo:hover{
+    transition: 0.3s ease-in-out;
     background-color: #ff0033;
-    overflow:hidden;
 }
 
-.linkBox img{
-    width:100%;
-    opacity:1;
-    filter: grayscale(100%);
-    transition: 0.3s ease-in-out;
-}
-
-.linkBox img:hover{
-    opacity: 0.5;
-    transition: 0.3s ease-in-out;
+#content{
+    bottom:0;
+    position:relative;
 }
 
 #textbox{
-    text-align: center;
-    margin-top: -15px;
-    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+    width: calc(100% - 400px);
+    min-width: 200px;
+    left:0;
+    right:0;
+    margin: auto;
+    margin-top: 10px;
 }
 
-#textbox a{
-    color: #ff0033;
-    text-decoration: none;
-    font-weight: bold;
+#olin{
+    text-align: left;
+    width: calc(100% - 400px);
+    min-width: 200px;
+    left:0;
+    right:0;
+    margin: auto;
+    font-size: 11px;
+    margin-bottom: 20px;
 }
 
-#textbox a:hover{
-    color: #00ff33;
+#olin h3{
+    margin: 0;
+    padding:0;
 }
 
-#icons{
-    text-align: center;
-    margin-top:-10px;
-    padding-bottom: 50px;
-}
-
-#icons img{
-    width: 25px;
-    margin: 5px;
+#reveal{
+    transition: 0.3s ease-in-out;
+    display: none;
 }
